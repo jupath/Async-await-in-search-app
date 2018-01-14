@@ -104,3 +104,14 @@ img.loader {
     text-decoration: none;
     font-weight: 600;
 }
+
+@media only screen and (max-width: 539px) {
+    .wrapper {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .user {
+        padding-bottom: 10px;
+    }
+}
