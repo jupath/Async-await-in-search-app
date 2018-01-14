@@ -1,0 +1,106 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    background: linear-gradient(to right, #26232C 0%,#26232C 40%,#26232C 100%);
+}
+
+.wrapper {
+    width: 540px;
+    margin: 50px auto;
+}
+
+h1, h3 {
+    text-align: center;
+    font-weight: 400;
+}
+
+form {
+    margin: 30px 0;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 45px;
+    padding: 0;
+    font-size: 16px;
+    border: 0;
+}
+
+input[type="text"] {
+    padding: 0 10px;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+input[type="submit"]:focus {
+    outline: 0;
+}
+
+#users {
+    margin-top: 20px;
+}
+
+.user {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    padding-top: 10px;
+}
+
+.user p:first-child {
+    margin-top: 0;
+}
+
+.user img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 120px;
+    width: auto;
+}
+
+.user a {
+    color: #5cb85c;
+}
+
+.notfound {
+    padding: 25px 0;
+}
+
+img.loader {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.footer {
+    text-align: center;
+    color: #49405A;
+    padding: 30px 0;
+}
+
+.footer a {
+    color: #69607A;
+    text-decoration: none;
+    font-weight: 600;
+}
